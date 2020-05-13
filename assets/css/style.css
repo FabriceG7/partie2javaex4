@@ -1,0 +1,54 @@
+/*....................Body..................*/
+body{
+  background-color: #F6EDCF; /* couleur de fond de la page */
+}
+/*................. Header .................*/
+header{
+  background-image: url('../image/Voyage&Co.jpg'); /* ajout de l'image de fond */
+  background-size: cover; /* la taille de l'img s'adapte (L'img est redimensionnée pour être aussi grande que possible et pour conserver ses proportions.) */
+  height: 368px; /* définition de la hauteur (368px) au header */
+  display: flex; /* définit le contexte global de boîte flexible (un container) */
+  align-items: center; /* alignement vertical des éléments contenus dans le header */
+  justify-content: center; /* alignement horizontal des éléments contenus dans le header */
+}
+h1{
+  font-size: 4.5em; /* définition de la taille de la police du titre de niveau 1 */
+}
+/*..................Navbar.................*/
+#listNav{
+  list-style-type: none; /* enlève les puces aux items de la liste */
+  height: 50px; /* définition de la hauteur de la liste pour centrer les li dans la navbar */
+  display: flex; /* définit le contexte global de boîte flexible (un container) */
+  justify-content: space-around; /* répartit équitablement les enfants (li) du container (ul) horizontalement */
+  align-items: center; /* répartit équitablement les enfants (li) du container (ul) verticalement */
+  font-size: 1.2em; /* taille de la police */
+  font-weight: bold; /* texte des onglets de la navbar en gras */
+}
+nav{
+  background-color: #89BEDD; /* couleur de fond de la navbar */
+  height: 50px; /* définition de la heuteur de la navbar */
+  margin-top: -20px; /* place la navbar collée au header */
+}
+/* css appliqué sur les a enfants de li */
+li > a{
+  text-decoration: none; /* suppression du texte souligné du lien */
+  color: #000000; /* couleur du texte noire */
+}
+/* Sur grands écrans l'icone menu-burger est masqué */
+#navBarIcon{
+  display: none;
+}
+/* au survol des liens de la navbar et de l'icone la couleur passe blanche */
+li > a:hover, #navBarIcon:hover{
+  color: #FFFFFF;
+}
+/*.............. Présentation ..................*/
+#presentation{
+  background-color: #E5D0A3; /* couleur de fond de la div */
+  margin: 1.5em; /* marges extérieures de la div */
+  padding: 1em; /* marges intérieures de la div */
+}
+/*............. Ligne de bloc .................*/
+#blockLine{
+  display: flex;
+  flex-direction: column;
