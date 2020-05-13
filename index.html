@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <!-- Balise meta précisant l'encodage du document (utf-8), permet l'affichage des caractères accentués -->
+    <meta charset="utf-8"/>
+    <!-- Balise meta qui permet d'adapter le ccontenu au format d'écran sur lequel le document est consulté.
+  La propriété "width" dans l'attribut "content" permet d'adapter la largeur du document à la largeur du support de consultation.
+ La propriété "initial-scale" dans l'attribut "content" permet de définir une échelle (un zoom) sur le document, à 1.0 il n'y pas de zoom appliqué. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Lien vers la feuille de style -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <!-- Titre de la page (cf. onglet du navigateur) -->
+    <title>Voyage & Co</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Voyage & Co</h1>
+    </header>
+    <!-- barre de navigation -->
+    <nav>
+      <ul id="listNav">
+        <li><a href="#" title="Lien vers la page Accueil">Accueil</a></li>
+        <li><a href="#blockLine" title="Lien vers la page Destinations">Destinations</a></li>
+        <li><a href="#" title="Lien vers la page Réservations">Réservations</a></li>
+        <li><a href="#" title="Lien vers la page Contact">Contact</a></li>
+        <li>
+          <form action="index.html" method="post">
+            <input type="text" id="search" name="search" placeholder="Rechercher"/>
+            <input type="button" id="searchButton" name="searchButton" value="Rechercher"/>
+          </form>
+        </li>
+        <li><i class="fas fa-bars" id="navBarIcon"></i></li>
+      </ul>
+    </nav>
+    <!-- Fin barre de navigation -->
+    <!-- Présentation -->
+    <div id="presentation">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <!-- Ligne de blocs -->
+    <div id="blockLine">
+      <div id="block1">
+        <img src="assets/image/marais.jpg" alt="Image représentant un marais" title="Marais"/>
+        <h2>Le marais 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div id="block2">
+        <img src="assets/image/marais.jpg" alt="Image représentant un marais" title="Marais"/>
+        <h2>Le marais 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div id="block3">
+        <img src="assets/image/marais.jpg" alt="Image représentant un marais" title="Marais"/>
+        <h2>Le marais 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <!-- Script fontawesome -->
+    <script src="https://kit.fontawesome.com/d38cea82af.js" crossorigin="anonymous"></script>
+    <!-- Script js -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
